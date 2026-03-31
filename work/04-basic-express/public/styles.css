@@ -1,0 +1,99 @@
+*, *::before, *::after { 
+    box-sizing: border-box;
+}
+
+html, body { 
+    height: 100%;
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+
+    font-family: sans-serif;
+}
+
+#chat-app { 
+    display: grid;
+    grid-template-areas: 
+        "users messages"
+        "outgoing outgoing"
+    ;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr auto;
+
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    color:darkgrey;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.users { 
+    grid-area: users;
+    background-color: #f0f0f0;
+
+    padding: 1rem;
+    margin: 1rem;
+
+    overflow-y: auto;
+
+    list-style-type: none;
+}
+
+.messages { 
+    grid-area: messages;
+
+    padding: 1rem;
+    margin: 0;
+    overflow-y: auto;
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.message { 
+    display: flex;
+    background-color: #faffef;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+
+.sender-info { 
+    display: flex;
+    font-weight: bold;
+    width: 10rem;
+}
+
+.message-text { 
+    margin: 0;
+    margin-top: auto;
+}
+
+
+.outgoing { 
+    grid-area: outgoing;
+    display: flex;
+    margin: 2rem;
+}
+
+.outgoing input[type="text"] {
+    width: 80%;
+    padding: 1rem; 
+    border: 0.1rem solid #aaaaaa; 
+    border-radius: 0.5rem; 
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.outgoing button {
+    padding: 1rem 2rem; 
+    font-size: 1rem; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 0.5rem; 
+    cursor: pointer; 
+}

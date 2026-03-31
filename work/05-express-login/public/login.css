@@ -1,0 +1,72 @@
+body {
+    background-color: linear-gradient(to bottom, #9592ff, #ff9e9e);
+    color: dimgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1rem; 
+}
+
+#login-app {
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.625rem;
+    text-align: center;
+    max-width: 25rem; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+form.logIn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+form.logIn label {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: left;
+}
+
+form.logIn input[type="text"] {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form.logIn input[type="text"]:focus {
+    border-color: #202020;
+    outline: none;
+    box-shadow: 0 0 0.3125rem #f3fff3;
+}
+
+form.logIn button {
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #006e02;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form.logIn button:hover {
+    background-color: #005301;
+}

@@ -1,0 +1,49 @@
+.gamecard {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    text-align: left;
+    line-height: 1.5;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Arial', sans-serif;
+}
+
+.gamecard h1 {
+    font-size: 1.8rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.gamecard .overview {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 1rem;
+    font-style: italic;
+    line-height: 1.5;
+    max-height: 4.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.gamecard p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.gamecard .delete {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1rem;
+}
+
+.gamecard p strong {
+    color: #000000;
+    font-weight: bold;
+}
+
+.gamecard p:not(:last-child) {
+    margin-bottom: 0.5rem;
+}

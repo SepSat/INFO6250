@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(to bottom, #9b9bff, #ffbfbf);
+    color: rgb(154, 154, 154);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+.main h1, .main h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.main p {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #ffffff;
+    margin: 2rem;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.login-input, .word-input {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 0.5rem;
+    width: 80%;
+    max-width: 300px;
+}
+
+button.login-button, button.logout-button, button.submit-word {
+    padding: 0.75rem 1.25rem;
+    font-size: 1.1rem;
+    color: #ffffff;
+    background-color: rgba(210, 210, 210, 0.7);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 1rem auto;
+    width: 80%;
+    max-width: 300px;
+}
+
+button.login-button:hover, button.logout-button:hover, button.change-word:hover {
+    background-color: rgba(161, 161, 161, 0.5);
+}
+
+strong {
+    color: #ff6961;
+    font-weight: bold;
+}
+
+p.error-message {
+    color: #ff6961;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.footer-word {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #ffffff;
+}

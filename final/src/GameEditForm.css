@@ -1,0 +1,64 @@
+.game-edit-form {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 50rem;
+    margin: 2rem auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.game-edit-form .game-edit-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.game-edit-form label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.game-edit-form input {
+    flex: 1;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.3rem;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-edit-form input:focus {
+    border-color: rgba(150, 150, 255, 0.8);
+    box-shadow: 0 0 0.5rem rgba(150, 150, 255, 0.5);
+}
+
+.game-edit-form button {
+    display: block;
+    margin: 2rem auto 0;
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: rgba(100, 100, 255, 0.8);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.game-edit-form button:hover {
+    background-color: rgba(100, 100, 255, 0.9);
+    transform: scale(1.05);
+}
+
+.game-edit-form button:active {
+    background-color: rgba(80, 80, 255, 0.9);
+}

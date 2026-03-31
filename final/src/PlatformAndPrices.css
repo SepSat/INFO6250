@@ -1,0 +1,76 @@
+.platforms {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: rgba(245, 245, 245, 0.95);
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.platform {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1rem 2rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.platform:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-0.1rem);
+}
+
+.platform label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+    color: #333;
+    width: 100%;
+}
+
+.platform input,
+.platform select {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.3rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.platform input:focus,
+.platform select:focus {
+    border-color: rgba(150, 150, 255, 0.8);
+    outline: none;
+}
+
+.platform button {
+    grid-column: 1 / -1; 
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgba(100, 100, 255, 0.8);
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    justify-self: center;
+    margin-top: 0.5rem;
+}
+
+.platform button:hover {
+    background-color: rgba(100, 100, 255, 0.9);
+    transform: scale(1.05);
+}
+
+.platform button:active {
+    background-color: rgba(80, 80, 255, 0.9);
+}

@@ -1,0 +1,128 @@
+body {
+    background: linear-gradient(to bottom, #9b9bff, #ffbfbf);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login, .log-out {
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 60vw;
+    max-width: 60rem;
+    margin-top: 2rem;
+    margin: 0 auto;
+}
+
+.login__form, .add__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.login__username, .add__message {
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.7);
+    border-radius: 0.5rem;
+    width: 90%;
+    max-width: 25rem;
+    margin: 0 auto;
+}
+
+button.login__button, button.controls__logout, button.submit__word {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: rgba(210, 210, 210, 0.8);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 90%;
+    max-width: 25rem;
+    margin: 0 auto;
+}
+
+button.login__button:hover, button.controls__logout:hover, button.submit__word:hover {
+    background-color: rgba(161, 161, 161, 0.6);
+}
+
+.chat-page {
+    display: grid;
+    grid-template-areas: 
+        "online chating"
+        "input input";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr auto;
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 90vw;
+    max-width: 60rem;
+    height: 90vh;
+    box-sizing: border-box;
+}
+
+.user-list {
+    grid-area: online;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-y: auto;
+    max-height: calc(90vh - 5rem);
+}
+
+
+.chat-box {
+    grid-area: chating;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-y: auto;
+    max-height: calc(90vh - 5rem); 
+}
+
+.add__form {
+    grid-area: input;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgba(240, 240, 240, 0.9);
+    border-radius: 0.5rem;
+    width: 90%;
+    max-width: 60rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.add__message {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 0.2rem solid #ccc;
+    border-radius: 0.3rem;
+}
+
+.submit__word {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #a7a7a7;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit__word:hover {
+    background-color: #787878;
+}

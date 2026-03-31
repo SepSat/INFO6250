@@ -1,0 +1,101 @@
+#root {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+.app {
+  display: flex;
+  flex-direction: column; 
+  gap: 2rem; 
+  min-height: 100vh; 
+  box-sizing: border-box;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 2rem; 
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto 3rem; 
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.showgames, .game-edit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 100rem;
+  margin-top: 2rem; 
+}
+
+.platform-tab, .game-list, .game-edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: rgba(100, 100, 255, 0.8);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: rgba(100, 100, 255, 0.9);
+  transform: translateY(-0.1rem);
+}
+
+button:active {
+  background-color: rgba(80, 80, 255, 0.9);
+}
+
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #333;
+}
+
+
+.status, .login__waiting, .login-form {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+@media (max-width: 70rem) {
+  .controls, .showgames, .game-edit-list {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .main {
+    padding: 1rem;
+  }
+}

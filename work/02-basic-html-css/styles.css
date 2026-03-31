@@ -1,0 +1,14 @@
+body{
+    background-color: seashell;
+    color: dimgray;
+    
+}
+header{
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+}
+footer{
+    background-color: bisque;
+}

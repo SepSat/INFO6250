@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(to bottom, #9b9bff, #ffbfbf);
+    color: #000000;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.controls {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 1rem; 
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.controls p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.controls__logout {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgba(255, 100, 100, 0.8);
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls__logout:hover {
+    background-color: rgba(255, 80, 80, 0.9);
+}
+
+.gamelist {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 90%;
+    max-width: 80rem;
+    margin: 5rem auto 1.5rem; 
+}
+
+.game__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.324);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+    gap: 2rem;
+}
+
+.game__item:hover {
+    transform: translateY(-0.5rem);
+}
+
+.gamebrief {
+    flex: 1;
+    color: #000000;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.gamebrief h1, .gamebrief p {
+    color: #000000;
+    margin: 0.5rem 0;
+}
+
+.subscribe__button {
+    padding: 0.75rem 1.5rem;
+    background-color: rgba(200, 200, 255, 0.4);
+    color: #000000;
+    font-size: 1rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0.5);
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe__button:hover {
+    background-color: rgba(200, 200, 255, 0.7);
+}
+
+.subscribe__button:focus {
+    outline: none;
+    background-color: rgba(200, 200, 255, 0.9);
+}

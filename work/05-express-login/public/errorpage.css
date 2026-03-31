@@ -1,0 +1,47 @@
+body {
+    background-color: linear-gradient(to bottom, #ff9999, #ffcccc);
+    color: dimgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+    color: #df3b35;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+form {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+form button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #006e02;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #005301;
+}
