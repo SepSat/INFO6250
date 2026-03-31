@@ -1,6 +1,7 @@
 # INFO6250 - Web Development: Tools and Methods
 
 This repository is how you will receive and submit your assignments and projects.
+Note: This repository was recreated from a cleaned copy for privacy reasons. As a result, the original commit history is not preserved here, so the earlier contributions from the instructor and TA are not visible in this version.
 
 Key parts:
 
