@@ -2,7 +2,7 @@
 
 This repository is how you will receive and submit your assignments and projects.
 
-Note: This repository was recreated from a cleaned copy for privacy reasons. As a result, the original commit history is not preserved here, so the earlier contributions from the instructor and TA are not visible in this version.
+**Note:** For privacy reasons, this repository was recreated from a cleaned copy. This means the original commit history was not carried over, so the earlier contributions from the professor [@Brett Ritter](https://github.com/swiftone) and TA [@Xujia118](https://github.com/Xujia118) do not appear in this version, even though their support and work for the course are fully acknowledged.
 
 Key parts:
 
