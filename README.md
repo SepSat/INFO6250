@@ -1,8 +1,14 @@
 # INFO6250 - Web Development: Tools and Methods
 
-This repository is how you will receive and submit your assignments and projects.
+**Note:** This repository is a cleaned public course archive used to preserve selected coursework and references from INFO6250.
 
-**Note:** For privacy reasons, this repository was recreated from a cleaned copy. This means the original commit history was not carried over, so the earlier contributions from the professor [@Brett Ritter](https://github.com/swiftone) and TA [@Xujia118](https://github.com/Xujia118) do not appear in this version, even though their support and work for the course are fully acknowledged.
+The current version focuses on materials appropriate for public display and portfolio use.
+
+- **Professor:** [@Brett Ritter](https://github.com/swiftone)
+
+- **TA:** [@Xujia118](https://github.com/Xujia118)
+
+This repository is how you will receive and submit your assignments and projects.
 
 Key parts:
 
